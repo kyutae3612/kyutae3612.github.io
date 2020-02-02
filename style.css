@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+
+    background-image: url("img/chicago.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}   
+
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand img
+{
+    position: relative;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover{
+    color: whitesmoke;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white;
+}
+
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .8rem grey; 
+    padding-bottom: 1rem;
+}
+
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem grey; 
+}
+
+
+
+#about{
+    background-color: white;
+    position: relative;
+    margin-top: 40%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.about-content{
+    padding-top: 25px;
+}
+
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+.skills-bar h2{
+    color: white;
+}
+
+.skill-top{
+    padding-top: 25px;
+}
+
+#display{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/bean.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#display h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#display h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.display{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding:20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#display p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.display .col-md-3:hover{
+    background: white;
+    color: black;
+    opacity: .5;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.display .col-md-3:active{
+    background: white;
+    opacity: 1;
+    transform: scale(1);
+}
+         
+
+footer{
+
+    color: white;
+}
+
+footer img{
+    height: 8rem;
+    margin: 1.5rem 0;
+}
