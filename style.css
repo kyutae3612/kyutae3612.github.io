@@ -8,6 +8,17 @@
     margin: 0;
     padding: 0;
 }
+
+#coding{
+    overflow-x: hidden;
+
+    background-image: url("img/bean.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 body{
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -53,7 +64,10 @@ body{
 
 #nav-bar ul li a:hover{
     color: whitesmoke;
+    transform: scale(1.1);
+    transition: 0.7s;
 }
+
 
 .navbar-toggler{
     border: none!important;
