@@ -144,7 +144,7 @@ body{
 }
 
 #pixels{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/sanfran.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/sanfran.jpg);
     background-size: cover;
     background-position: bottom;
     color: #efefef !important;
