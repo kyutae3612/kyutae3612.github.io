@@ -61,11 +61,6 @@ function custom(){
 }
 
 function restore(){
-    var imageObject = document.getElementById("inverse");
-    imageObject.src = "img/filter.JPG";
-    var imageObject = document.getElementById("grayScale");
-    imageObject.src = "img/filter.JPG";
-    var imageObject = document.getElementById("custom");
-    imageObject.src = "img/filter.JPG";
+    imageObject.src = "img/filter.jpg";
     
 }
