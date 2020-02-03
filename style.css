@@ -12,12 +12,18 @@
 #coding{
     overflow-x: hidden;
 
-    background-image: url("img/bean.JPG");
+    background-image: none;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
+
+#filter .container .row .col-md-6{
+    padding-top: 5%;
+}
+
+
 
 body{
     overflow-x: hidden;
@@ -137,11 +143,29 @@ body{
     padding-bottom: 50px;
 }
 
+#pixels{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/sanfran.JPG);
+    background-size: cover;
+    background-position: bottom;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 #display h1{
     text-align: center;
     color: #efefef !important;
     padding-bottom: 10px;
 }
+
+#pixels h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
 
 #display h1::after{
     content: '';
@@ -155,6 +179,10 @@ body{
 .display{
     margin-top: 40px;
 }
+.container {  
+    display: grid;  
+}
+
 .icon{
     font-size: 40px;
     margin: 20px auto;
@@ -184,7 +212,8 @@ body{
     opacity: 1;
     transform: scale(1);
 }
-         
+
+
 
 footer{
 
@@ -195,3 +224,54 @@ footer img{
     height: 8rem;
     margin: 1.5rem 0;
 }
+
+.col-md-4:hover .sanfran{
+    background: white;
+    color: black;
+    opacity: .5;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.col-md-4:hover .centered{
+    visibility: visible;
+    transition: 0.7s;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+  }
+
+
+  /****slider*/
+
+  .slider .col-md-12 .d-block{
+    max-height: 100%;
+      max-width: 100%;
+  }  
+  .carousel-item{
+      background: cover;
+      
+      
+
+  }
+  #slider{
+      width: 100%;
+      padding-top: 20px;
+  }
+  .carousel-caption{
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: initial!important;
+  }
+
+
+
+  
+
+
+
+  

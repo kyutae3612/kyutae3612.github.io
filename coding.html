@@ -14,7 +14,7 @@
     <!----NavBar---->
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"><img src="img/kp_logo_black.gif">  Creataevity</a>
+            <a class="navbar-brand" href="index.html"><img src="img/kp_logo_black.gif">  Creataevity</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,7 +27,7 @@
                   <a class="nav-link" href="coding.html">CODING</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PHTOGRAPHY</a>
+                  <a class="nav-link" href="photography.html">PHTOGRAPHY</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">VIDEOGRAPHY</a>
@@ -41,6 +41,67 @@
     </section>
 
     
+
+    <div id="pixels">
+      <div class="container text-center">
+        <h1 class="Manip">F I L T E R S</h1>
+        <p>Hover over each picture to see the pixel computation.</p>
+        
+        <div class="row text-center" style="padding-bottom: 25px;">
+          
+          <div class="col-md-4">
+              <img  class="sanfran" id="inverse" src="img/filter.JPG"><br/>
+              <div class="centered">
+                  Loop through pixel data <br/>
+                  subtract r,g,b values from max (255)
+              </div>
+              <button onclick="inverse();" type="button" class="btn btn-outline-light">Inverse</button>
+          </div>
+          <div class="col-md-4">
+            <img  class="sanfran" id="grayScale" src="img/filter.JPG"><br/>
+            <div class="centered">
+              Loop through pixel data <br/>
+              take the average of rgb
+            </div>
+            <button onclick="grayScale();" type="button" class="btn btn-outline-light">GrayScale</button>
+          </div>
+          <div class="col-md-4">
+            <img  class="sanfran" id="custom" src="img/filter.JPG"><br/>
+            <div  class="centered">
+              Loop through pixel data <br/>
+              multiply r&g by 2<br/>
+              divide b by 2
+            </div>
+            <button onclick="custom();" type="button" class="btn btn-outline-light">Custom</button>
+          </div>
+          
+          
+        </div>
+
+
+        <div class="row text-center">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <button  onclick= "restore();" type="button" class="btn btn-outline-light btn-xs">restore</button>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+        
+        
+        <script src="filter.js"></script>
+      </div>
+      
+    </div>
+
+    <div id="next">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"><h1>MORE PROJECTS COMING SOON</h1></div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </div>
          
     </body>
 </html>    
