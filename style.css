@@ -83,6 +83,7 @@ body{
     border: none!important;
 }
 
+/*
 .caption{
     width: 100%;
     max-width: 100%;
@@ -90,7 +91,18 @@ body{
     top: 40%;
     z-index: 1;
     color: white;
+}*/
+
+
+.caption{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .caption h1{
     font-size: 3.8rem;
@@ -104,6 +116,10 @@ body{
     text-shadow: .1rem .1rem .5rem grey; 
 }
 
+
+.skills{
+  display:grid;
+}
 
 
 #about{
@@ -291,7 +307,6 @@ footer img{
      width:var(--width);
      transition:transform 0.2s;
      position:absolute;
-     cursor:pointer;
   }
   
   
@@ -464,3 +479,48 @@ footer img{
 .opacity-low {
   opacity: 0.5;
 }
+
+
+/***Graphic Design***/
+
+#Graphic{
+  background-image: none;
+}
+
+.graph{
+  text-align: center; 
+  font-size: 150%; 
+  padding-bottom: 20%;
+  background-image: ;
+}
+
+
+.parallax{
+  height: 300vh;
+  display:flex;
+}
+
+.parallax-static{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0!important;
+}
+
+.parallax-static-img{
+  width:50%;
+}
+
+.parallax-static-img .static-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+
+
