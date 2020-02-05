@@ -10,7 +10,8 @@
 }
 
 #photography{
-    background-image: linear-gradient(rgb(32, 32, 32), rgb(165, 165, 165));
+  background-image: none;
+    background-color: #B1D8B7;
 }
 
 #coding{
@@ -491,7 +492,9 @@ footer img{
   text-align: center; 
   font-size: 150%; 
   padding-bottom: 20%;
-  background-image: ;
+  background-image: url("img/design.jpg");
+  background-position: center;
+
 }
 
 
@@ -523,4 +526,33 @@ footer img{
 }
 
 
+.parallax-dyn{
+  height: 300vh;
+  display:flex;
+}
 
+.parallax-dynamic{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0!important;
+}
+
+.parallax-dynamic-img{
+  width:50%;
+}
+
+.parallax-dynamic-img .dynamic-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.logo{
+  font-size: 2rem;
+}
